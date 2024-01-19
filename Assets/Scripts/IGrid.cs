@@ -4,12 +4,12 @@ using UnityEngine;
 
 public interface IGrid
 {
-    void setPlayground(int index, bool value);
-    void lightUp();
-    void lightDown();
-    void lightSuccess();
-    void lightFail();
-    void lightInitial();
+    void SetPlayground(int index, bool value);
+    void LightUp();
+    void LightDown();
+    void LightSuccess();
+    void LightFail();
+    void LightInitial();
     void Init();
     void Pressed();
 

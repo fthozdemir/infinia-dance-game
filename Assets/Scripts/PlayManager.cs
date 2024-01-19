@@ -7,26 +7,26 @@ public class PlayManager : MonoBehaviour
     private bool[] playground = new bool[10];
     private IDictionary<int, IGrid> gridController = new Dictionary<int, IGrid>();
 
-    public void setPlayground(int index, bool value)
+    public void SetPlayground(int index, bool value)
     {
         playground[index] = value;
     }
-    public bool getPlayground(int index)
+    public bool GetPlayground(int index)
     {
         return playground[index];
     }
 
-    public void setGridController(int index, IGrid value)
+    public void SetGridController(int index, IGrid value)
     {
         gridController[index] = value;
     }
 
-    public IGrid getGridController(int index)
+    public IGrid GetGridController(int index)
     {
         return gridController[index];
     }
 
-    public void resetPlayground()
+    public void ResetPlayground()
     {
         for (int i = 0; i < playground.Length; i++)
         {
@@ -34,7 +34,7 @@ public class PlayManager : MonoBehaviour
         }
     }
 
-    public void resetGridController()
+    public void ResetGridController()
     {
         for (int i = 0; i < gridController.Count; i++)
         {
