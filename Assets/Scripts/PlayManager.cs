@@ -16,7 +16,7 @@ public class PlayManager : MonoBehaviour
         return playground[index];
     }
 
-    public void setGridController(int index, GridController value)
+    public void setGridController(int index, IGrid value)
     {
         gridController[index] = value;
     }
