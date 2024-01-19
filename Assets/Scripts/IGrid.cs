@@ -4,7 +4,6 @@ using UnityEngine;
 
 public interface IGrid
 {
-    void SetPlayground(int index, bool value);
     void LightUp();
     void LightDown();
     void LightSuccess();
